@@ -19,6 +19,13 @@
 		28A9ADF21BFA5257005EA851 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9ADF11BFA5257005EA851 /* InterfaceController.swift */; };
 		28A9ADF41BFA5257005EA851 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A9ADF31BFA5257005EA851 /* ExtensionDelegate.swift */; };
 		28A9ADF61BFA5257005EA851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28A9ADF51BFA5257005EA851 /* Assets.xcassets */; };
+		28F9DA0A1BFA76FF001ADA26 /* PizzaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA091BFA76FF001ADA26 /* PizzaClass.swift */; settings = {ASSET_TAGS = (); }; };
+		28F9DA0C1BFA773C001ADA26 /* TipoMasaPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA0B1BFA773C001ADA26 /* TipoMasaPizza.swift */; settings = {ASSET_TAGS = (); }; };
+		28F9DA0E1BFA774F001ADA26 /* TipoQuesoPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA0D1BFA774F001ADA26 /* TipoQuesoPizza.swift */; settings = {ASSET_TAGS = (); }; };
+		28F9DA101BFA7761001ADA26 /* IngredientesPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA0F1BFA7761001ADA26 /* IngredientesPizza.swift */; settings = {ASSET_TAGS = (); }; };
+		28F9DA121BFA7774001ADA26 /* ConfirmacionPizza.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA111BFA7774001ADA26 /* ConfirmacionPizza.swift */; settings = {ASSET_TAGS = (); }; };
+		28F9DA141BFA8335001ADA26 /* filaPizzaContenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA131BFA8335001ADA26 /* filaPizzaContenido.swift */; settings = {ASSET_TAGS = (); }; };
+		28F9DA161BFA853B001ADA26 /* filaIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F9DA151BFA853B001ADA26 /* filaIngredientes.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +87,13 @@
 		28A9ADF31BFA5257005EA851 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		28A9ADF51BFA5257005EA851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28A9ADF71BFA5257005EA851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F9DA091BFA76FF001ADA26 /* PizzaClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizzaClass.swift; sourceTree = "<group>"; };
+		28F9DA0B1BFA773C001ADA26 /* TipoMasaPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasaPizza.swift; sourceTree = "<group>"; };
+		28F9DA0D1BFA774F001ADA26 /* TipoQuesoPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQuesoPizza.swift; sourceTree = "<group>"; };
+		28F9DA0F1BFA7761001ADA26 /* IngredientesPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesPizza.swift; sourceTree = "<group>"; };
+		28F9DA111BFA7774001ADA26 /* ConfirmacionPizza.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmacionPizza.swift; sourceTree = "<group>"; };
+		28F9DA131BFA8335001ADA26 /* filaPizzaContenido.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filaPizzaContenido.swift; sourceTree = "<group>"; };
+		28F9DA151BFA853B001ADA26 /* filaIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = filaIngredientes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +161,14 @@
 			isa = PBXGroup;
 			children = (
 				28A9ADF11BFA5257005EA851 /* InterfaceController.swift */,
+				28F9DA0B1BFA773C001ADA26 /* TipoMasaPizza.swift */,
+				28F9DA0D1BFA774F001ADA26 /* TipoQuesoPizza.swift */,
+				28F9DA0F1BFA7761001ADA26 /* IngredientesPizza.swift */,
+				28F9DA111BFA7774001ADA26 /* ConfirmacionPizza.swift */,
+				28F9DA091BFA76FF001ADA26 /* PizzaClass.swift */,
 				28A9ADF31BFA5257005EA851 /* ExtensionDelegate.swift */,
+				28F9DA131BFA8335001ADA26 /* filaPizzaContenido.swift */,
+				28F9DA151BFA853B001ADA26 /* filaIngredientes.swift */,
 				28A9ADF51BFA5257005EA851 /* Assets.xcassets */,
 				28A9ADF71BFA5257005EA851 /* Info.plist */,
 			);
@@ -294,8 +315,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F9DA141BFA8335001ADA26 /* filaPizzaContenido.swift in Sources */,
+				28F9DA121BFA7774001ADA26 /* ConfirmacionPizza.swift in Sources */,
+				28F9DA0A1BFA76FF001ADA26 /* PizzaClass.swift in Sources */,
 				28A9ADF41BFA5257005EA851 /* ExtensionDelegate.swift in Sources */,
+				28F9DA0C1BFA773C001ADA26 /* TipoMasaPizza.swift in Sources */,
+				28F9DA161BFA853B001ADA26 /* filaIngredientes.swift in Sources */,
 				28A9ADF21BFA5257005EA851 /* InterfaceController.swift in Sources */,
+				28F9DA0E1BFA774F001ADA26 /* TipoQuesoPizza.swift in Sources */,
+				28F9DA101BFA7761001ADA26 /* IngredientesPizza.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -524,6 +552,7 @@
 				28A9ADFC1BFA5257005EA851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28A9ADFE1BFA5257005EA851 /* Build configuration list for PBXNativeTarget "AppPizzasWatch2 WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +561,7 @@
 				28A9AE001BFA5257005EA851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28A9AE021BFA5257005EA851 /* Build configuration list for PBXNativeTarget "AppPizzasWatch2" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +570,7 @@
 				28A9AE041BFA5257005EA851 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
