@@ -90,7 +90,7 @@
                                         <action selector="anchoa" destination="may-j9-F1C" id="R3a-lQ-jW1"/>
                                     </connections>
                                 </button>
-                                <button width="41" height="38" alignment="center" backgroundImage="Piña" id="s4L-TB-uUv">
+                                <button width="41" height="38" alignment="center" backgroundImage="Pinaapple" id="s4L-TB-uUv">
                                     <connections>
                                         <action selector="pina" destination="may-j9-F1C" id="cGt-0y-ANo"/>
                                     </connections>
